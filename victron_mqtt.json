@@ -67,7 +67,7 @@
       "max": null
     },
     {
-      "topic": "N/+/grid/+/Ac/*/Energy/Forward",
+      "topic": "N/+/grid/+/Ac/+/Energy/Forward",
       "message_type": "MetricKind.SENSOR",
       "short_id": "grid_energy_forward_{phase}",
       "name": "Grid consumption on {phase}",
@@ -82,7 +82,7 @@
       "max": null
     },
     {
-      "topic": "N/+/grid/+/Ac/*/Energy/Reverse",
+      "topic": "N/+/grid/+/Ac/+/Energy/Reverse",
       "message_type": "MetricKind.SENSOR",
       "short_id": "grid_energy_reverse_{phase}",
       "name": "Grid feed-in on {phase}",
